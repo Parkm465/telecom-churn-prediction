@@ -1,10 +1,10 @@
-# telecom-churn-prediction
-
+# Customer Churn Prediction (IBM Telecom Dataset)
 ## Defining The Problem
-In busineess, churn is the rate at which customers stop using a product. The problem this project solves is to predict which users are most likely to leave soon based on given data in the following dataset. Utilizing a score from 0 (not stopping) to 1 (stopped using), this project aims to make a nuermical prediction so that businesses can improve retention campaigns, as retaining is cheaper than acquiring new customers.
+In busineess, customer churn, the rate at which customers stop using a product, is a major challenge. This project builds a machine learning pipeline to predict whether a client is likely to leave based on demographics, services used, and billing information from the dataset. The goal is not only to achieve a strong predictive performance, but also to identify key factors that drive churn and translate model results into actionable businesss insights.
 
 #### Dataset and Variables
-The [dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data) is based on a fictional telecommunication churn dataset provided by IBM in 2015.
+Source: [IBM Telecom Customer Churn Datsset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data)
+Target Variable: Churn Yes/No
 
 **The dataset includes the following variables**
 1. customerID: a unique string given to each customer
@@ -31,6 +31,7 @@ The [dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/dat
 
 
 ## The Approach
+
 
 ## The Results
 
