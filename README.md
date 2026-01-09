@@ -1,19 +1,19 @@
 # Customer Churn Prediction (IBM Telecom Dataset)
 ## Defining The Problem
-In busineess, customer churn, the rate at which customers stop using a product, is a major challenge. This project builds a machine learning pipeline to predict whether a client is likely to leave based on demographics, services used, and billing information from the dataset. The goal is not only to achieve a strong predictive performance, but also to identify key factors that drive churn and translate model results into actionable businesss insights.
+In busineess, customer churn, the rate at which customers stop using a product, is a major challenge. It's much cheaper to retain customer than it is to get new ones, so customer churn is valulable for businessses. This project builds a machine learning pipeline to predict whether a client is likely to leave based on demographics, services used, and billing information from the dataset. The goal is not only to achieve a strong predictive performance, but also to identify key factors that drive churn and translate model results into actionable businesss insights.
 
 #### Dataset and Variables
 Source: [IBM Telecom Customer Churn Datsset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data)
 Target Variable: Churn (Yes/No)
 
 **The dataset includes the following variables**
-**Customer Demographic**
+<br>**Customer Demographic**
 1. customerID: a unique string given to each customer
 2. gender: Whether customer is male or female
 3. SeniorCitizen: Whether the customer is a senior citizen or not (1, 0)
 4. Partner: Whether the customer has a partner or not (Yes, No)
 5. Dependents: Whether the customer has dependents or not (Yes, No)
-**Service Usage** 
+<br>**Service Usage** 
 6. PhoneService: Whether the customer has a phone service or not (Yes, No)
 7. MultipleLines: Whether the customer has multiple lines or not (Yes, No, No phone service)
 8. InternetService: Customer’s internet service provider (DSL, Fiber optic, No)
@@ -23,15 +23,15 @@ Target Variable: Churn (Yes/No)
 12. TechSupport: Whether the customer has tech support or not (Yes, No, No internet service)
 13. StreamingTV: Whether the customer has streaming TV or not (Yes, No, No internet service)
 14. StreamingMovies: Whether the customer has streaming movies or not (Yes, No, No internet service)
-**Account Information**
+<br>**Account Information**
 15. tenure: Number of months the customer has stayed with the company
 16. Contract: The contract term of the customer (Month-to-month, One year, Two year)
 17. PaperlessBilling: Whether the customer has paperless billing or not (Yes, No)
 18. PaymentMethod: The customer’s payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))
-**Charges**
+<br>**Charges**
 19. MonthlyCharges: The amount charged to the customer monthly
 20. TotalCharges: The total amount charged to the customer
-**Target Variable**
+<br>**Target Variable**
 21. Churn: Whether the customer churned or not (Yes or No)
 
 
@@ -55,17 +55,17 @@ Categorical features were compared to churn using bar charts, while numerical fe
 ## The Results
 ### Performance
 <img width="482" height="189" alt="Screenshot 2026-01-09 at 2 23 41 PM" src="https://github.com/user-attachments/assets/2d018819-835e-413c-8d14-54d05f07f8f2" />
-[0 refers to Not Churn, while 1 refers to Churn]
+<br>[0 refers to Not Churn, while 1 refers to Churn]
 ### Key Insights
 <img width="968" height="528" alt="image" src="https://github.com/user-attachments/assets/dc5885db-77ee-4e3f-bea6-39febca5a8af" />
-Features that increase churn risk include: utilizing fiber optic as an internet service and Electronic check as a payment method.
-In addition, according to the EDA, 
+<br>Features that increase churn risk include: utilizing fiber optic as an internet service and Electronic check as a payment method.
+<br>In addition, according to the EDA, 
 ## Tools and Technologies
-- Python
-- Pandas, Numpy
-- scikit-learn
-- XGBoost
-- matplotlib, seaborn
-- Jupyter Notebook
+* Python
+* Pandas, Numpy
+* scikit-learn
+* XGBoost
+* matplotlib, seaborn
+* Jupyter Notebook
 ## Conclusion
 
