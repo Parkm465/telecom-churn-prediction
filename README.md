@@ -1,7 +1,7 @@
 # Customer Churn Prediction (IBM Telco Dataset)
 
 ## Defining the Problem
-In business, customer churn—the rate at which customers stop using a product or service—is a major challenge. Retaining existing customers is significantly cheaper than acquiring new ones, making churn prediction a critical business task.
+In business, customer churn, the rate at which customers stop using a product or service, is a major challenge. Retaining existing customers is significantly cheaper than acquiring new ones, making churn prediction a critical business task.
 
 This project builds a machine learning pipeline to predict whether a customer is likely to churn, using demographic information, service usage, and billing data. Beyond predictive performance, the goal is to identify the key drivers of churn and translate model results into actionable business insights.
 
@@ -94,8 +94,8 @@ The final model achieved a **ROC-AUC of ~0.86**, indicating strong predictive pe
 *   **Customer tenure is the strongest predictor of churn:**
     *   Median tenure (churned): 10 months
     *   Median tenure (retained): 38 months
-*   Customers with **month-to-month contracts**, **fiber optic internet**, and **electronic check payments** are more likely to churn.
-*   **Longer contracts**, **automatic payments**, and **technical support services** significantly reduce churn risk.
+*   Customers with **fiber optic internet**, and **electronic check payments** are more likely to churn.
+*   Customeres with **automatic payments**, and **technical support services** significantly reduce churn risk.
 
 These findings suggest that early retention strategies and incentives for long-term commitments can meaningfully reduce churn.
 
