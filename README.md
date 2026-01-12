@@ -110,8 +110,4 @@ These findings suggest that early retention strategies and incentives for long-t
 *   **Matplotlib & Seaborn** (Visualization)
 *   **Jupyter Notebook**
 
----
-
-## Conclusion
-This project demonstrates an end-to-end churn prediction workflow, combining exploratory data analysis, robust preprocessing pipelines, cross-validated model selection, and interpretable results. The analysis highlights the importance of customer tenure and contract structure in churn behavior and provides actionable insights for improving customer retention.
 
