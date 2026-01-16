@@ -84,9 +84,9 @@ EDA highlighted strong relationships between churn and **tenure**, **contract ty
 ### Model Performance
 <img width="462" height="174" alt="Screenshot 2026-01-09 at 4 43 24 PM" src="https://github.com/user-attachments/assets/dd144949-6d81-4c43-aa3e-b8d10401f35d" />
 
-> The final model achieved an  **ROC-AUC of ~0.86** indicating strong predictive performance.
+The final model achieved an  **ROC-AUC of ~0.86** indicating strong predictive performance.
 
-*Note: 0 → Not Churn, 1 → Churn*
+> *Note: 0 → Not Churn, 1 → Churn*
 
 ### Key Insights
 <img width="968" height="528" alt="image" src="https://github.com/user-attachments/assets/8f642545-470f-473d-ba0f-d704917c70ea" />
